@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://C:/Java JDK/JDBC/JDBC.iml" filepath="C:/Java JDK/JDBC/JDBC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MySQLConnection.iml" filepath="$PROJECT_DIR$/MySQLConnection.iml" />
+    </modules>
+  </component>
+</project>

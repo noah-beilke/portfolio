@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="mainMenuGUI">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-3355444"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="6fbb7" class="javax.swing.JComboBox" binding="tableComboBox">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Items"/>
+            <item value="Vendors"/>
+            <item value="Receipts"/>
+            <item value="Employees"/>
+            <item value="Grocery"/>
+            <item value="Managers"/>
+            <item value="Produce"/>
+            <item value="Frozen"/>
+            <item value="Meat"/>
+            <item value="Dairy"/>
+            <item value="Deli"/>
+            <item value="Seafood"/>
+          </model>
+        </properties>
+      </component>
+      <component id="468c7" class="javax.swing.JButton" binding="addEntryButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+          <text value="Add Entry"/>
+        </properties>
+      </component>
+      <component id="40105" class="javax.swing.JButton" binding="removeEntryButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+          <text value="Remove Entry"/>
+        </properties>
+      </component>
+      <component id="17b41" class="javax.swing.JButton" binding="selectEntryButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Select Entry"/>
+        </properties>
+      </component>
+      <component id="1a51d" class="javax.swing.JButton" binding="updateEntryButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Update Entry"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
